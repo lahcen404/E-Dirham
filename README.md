@@ -40,9 +40,3 @@ Ce site a pour objectif d’aider les citoyens à **comprendre les bénéfices, 
 - **SEO & Accessibilité**  
 
 ---
-
-
----
-
-## 📜 Licence  
-Projet académique — Tous droits réservés © 2025  
