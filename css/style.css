@@ -226,7 +226,7 @@ color: white;
 
 /* qu'est-ce que le E-Dirham */
 
-.e-dirham-section {
+.e-dirham-section , .avantages-section ,.faqs-section {
     padding: 15px;
 }
 
@@ -237,6 +237,28 @@ color: white;
 
 .e-dirham-section .describ-edirham p {
     margin-top: 1px;
+    font-size: 30px;
 }
 
+/* avantages e-dirham */
+
+.avantages-section .avantages{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+    gap: 5px;
+}
+
+/* FAQs Section */
+.faqs-section .cards .card{
+    gap: 160px;
+}
+
+.faqs-section .cards .card .infos img{
+    width: 20rem;
+}
+
+.faqs-section .cards .card .faq p{
+    font-size: 30px;
+}
 }
