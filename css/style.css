@@ -195,8 +195,33 @@ background-color: #9D834A;
 color: white;
 }
 
-@media (max-width : 1280px) {
+@media (min-width : 1280px) {
     
+    .hero-section .title {
+        margin-top: 100px;
+    }
+.hero-section .title h1{
+    font-size: 5rem;
+}
 
+.hero-section .title p{
+    font-size: 2rem;
+}
+
+.hero-section .buttons{
+    margin-left: 30px;
+    position: absolute;
+    top: 30rem;
+}
+
+.hero-section .buttons #explore-btn{
+    padding: 1.5rem 5rem;
+    font-size: 1rem;
+}
+
+.hero-section .buttons #Register-btn{
+    padding: 1.5rem 5rem;
+    font-size: 1rem;
+}
 
 }
