@@ -128,3 +128,581 @@ nav ul.show{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;  
+    margin: 0; 
+    padding: 0;
+}
+
+.news .titre1 {
+
+    text-align: center;
+    font-size: 20px;
+    padding: 2rem 1rem;
+  
+}
+
+.news {
+
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-top: 2rem; 
+    overflow-x: hidden;
+
+}
+
+.news .first_part_news {
+display: grid;
+grid-template-columns: 1fr;
+background-color: var(--main-color);
+border-radius: 1rem;
+gap : 1.5rem;
+padding: 1rem;
+box-sizing: border-box;
+max-width: 500px;
+margin:  0 auto;
+
+
+}
+.article .article_first_part {
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 0.7rem;
+    
+    
+}
+.article .article_p,
+.article .list,
+.article .titre2 {
+    text-align: left; /* Règle critique pour la lisibilité sur mobile */
+}
+.news .first_part_news .article
+ {
+
+background-image: url(/assets/news-imgs/background-green.png);
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 1rem;
+padding :1.5rem;
+}
+
+.article img{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.article .titre1{
+    font-size: 0.9rem;
+    text-align: center;
+    color: var(--main-color);
+}
+.article .article_p {
+
+color: white;
+text-align: center;
+font-size: 0.8rem;
+word-break: break-word;
+}
+.article .titre2 {
+    color : var(--main-color);
+}
+.article .list {
+    color: white;
+    font-size: 0.6rem;
+    text-align: left;
+}
+
+
+
+
+
+
