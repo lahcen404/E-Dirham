@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="../css/home.css">
     <link rel="stylesheet" href="../css/navbar.css">
 </head>
-
 <body>
+   
     <header>
         <nav>
             <div class="navbar">
@@ -31,11 +31,153 @@
             </ul>
         </nav>
     </header>
+
+    <main>
+
+        <!-- Hero Sectiion -->
+        <section class="hero-section">
+            <img src="../assets/home-imgs/backgrouund-hero.png" alt="hero backgrouund">
+            <div class="title">
+                <h1>Le e-Dirham, l’avenir du paiement au Maroc</h1>
+                <p>Une monnaie digitale sécurisée, accessible et 100 % marocaine.</p>
+            </div>
+            <div class="buttons">
+                <button id="explore-btn">Explore Services</button>
+                <span id="Register-btn"><a href="">Register Account</a></span>
+            </div>
+        </section>
+
+        <!-- What's E-Dirham Sectiioon -->
+
+        <section class="e-dirham-section">
+            <div class="title">
+                <h1>Qu’est-ce que le E-Dirham ?</h1>
+            </div>
+            <div class="describ-edirham">
+                <p>Le e-Dirham est la monnaie numérique officielle du Maroc,
+                    émise et régulée par Bank Al-Maghrib. C'est une forme
+                    digitale sécurisée du Dirham physique, conçue pour
+                    moderniser les paiements, stimuler l'inclusion
+                    financière et garantir la stabilité économique.
+                    Il offre une solution de paiement rapide et fiable,
+                    entièrement intégrée à l'écosystème financier national.</p>
+            </div>
+        </section>
+
+        <!-- Advantages Sectiion -->
+
+        <section class="avantages-section">
+            <div class="title">
+                <h1>Les Avantages de le E-Dirham :</h1>
+            </div>
+            <div class="avantages">
+                <!-- card 1 -->
+                <div id="card">
+                    <img src="../assets/home-imgs/icon-security.png" alt="Security">
+                    <h1>Security</h1>
+                    <p>Vos transactions sont protégées par des technologies de pointe et la régulation de Bank
+                        Al-Maghrib, garantissant une tranquillité d'esprit à chaque utilisation.</p>
+                </div>
+                <!-- card 2 -->
+                <div id="card">
+                    <img src="../assets/home-imgs/icon-security.png" alt="Security">
+                    <h1>Security</h1>
+                    <p>Vos transactions sont protégées par des technologies de pointe et la régulation de Bank
+                        Al-Maghrib, garantissant une tranquillité d'esprit à chaque utilisation.</p>
+                </div>
+                <!-- card 3 -->
+                <div id="card">
+                    <img src="../assets/home-imgs/icon-security.png" alt="Security">
+                    <h1>Security</h1>
+                    <p>Vos transactions sont protégées par des technologies de pointe et la régulation de Bank
+                        Al-Maghrib, garantissant une tranquillité d'esprit à chaque utilisation.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQs Sectiiion -->
+        <section class="faqs-section">
+
+            <!-- card 1 -->
+            <div id="card">
+                <div class="infos">
+                    <img src="../assets/home-imgs/icon-man.png" alt="Man">
+                    <h1>Sara</h1>
+                    <p>Lorem epsom</p>
+                </div>
+                <div class="faq">
+                    <h1>FAQ</h1>
+                    <p>Vos transactions sont protégées par des technologies de pointe et la régulation de Bank
+                        Al-Maghrib, garantissant une tranquillité d'esprit à chaque utilisation.</p>
+                </div>
+            </div>
+
+            <!-- card 2 -->
+            <div id="card">
+                <div class="infos">
+                    <img src="../assets/home-imgs/woman-icon.png" alt="Woman">
+                    <h1>Mohamed</h1>
+                    <p>Lorem epsom</p>
+                </div>
+                <div class="faq">
+                    <h1>FAQ</h1>
+                    <p>Vos transactions sont protégées par des technologies de pointe et la régulation de Bank
+                        Al-Maghrib, garantissant une tranquillité d'esprit à chaque utilisation.</p>
+                </div>
+            </div>
+
+            <!-- card 3 -->
+            <div id="card">
+                <div class="infos">
+                    <img src="../assets/home-imgs/icon-man.png" alt="Man">
+                    <h1>Sara</h1>
+                    <p>Lorem epsom</p>
+                </div>
+                <div class="faq">
+                    <h1>FAQ</h1>
+                    <p>Vos transactions sont protégées par des technologies de pointe et la régulation de Bank
+                        Al-Maghrib, garantissant une tranquillité d'esprit à chaque utilisation.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Inscription Sectiion -->
+
+        <section class="inscription-section">
+
+            <div class="inscri-titles">
+                <h1>Restez à l'écoute pour plus d'informations sur E-Dirham</h1>
+                <p>Recevez les actualités et les mises à jour importantes directement dans votre boîte mail, simplement et rapidement.</p>
+            </div>
+
+            <div class="inscri-input">
+                <input type="text">
+                <button>S'abonner</button>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div id="copyright">
+            <p>© All rights reserved - E-Dirham .</p>
+        </div>
+
+        <div class="social-media">
+            <img src="" alt="" class="s-media-icon">
+            <img src="" alt="" class="s-media-icon">
+            <img src="" alt="" class="s-media-icon">
+            <img src="" alt="" class="s-media-icon">
+        </div>
+    </footer>
+
+
     <script>
         const menuIcon = document.getElementById('menu-icon');
         const navLinks = document.getElementById('nav-links');
 
-        menuIcon.addEventListener('click' , () =>{
+        menuIcon.addEventListener('click', () => {
             navLinks.classList.toggle('show');
         })
     </script>
