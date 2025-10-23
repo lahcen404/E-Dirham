@@ -8,11 +8,16 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    width: 430px;
+}
 
 /* navbaar */
 
 nav{
     background-color: white;
+    position: relative;
+    z-index: 10;
 }
 nav .navbar{
     display: flex;
@@ -31,6 +36,7 @@ nav img{
 nav ul{
     display:none ;
     flex-direction: column;
+    top:100%;
     width: 100%;
     text-align: center;
     list-style: none;
@@ -40,7 +46,7 @@ nav ul a{
     display: block;              
   width: 100%;                  
   padding: 20px 0;              
-  background-color: #d6c6a1;    
+  background-color: main-color;    
   color: #1f4e4e;               
   text-decoration: none;
   border-top: 2px solid #1f4e4e;
@@ -49,10 +55,15 @@ nav ul a{
 }
 
 nav ul.show{
-    display: contents;
+    display: flex;
 }
 
 /* Heero  */
+
+.hero-section{
+    position: relative;
+    z-index: 1;
+}
 
 .hero-section img{
     width: 100%;
@@ -63,7 +74,7 @@ nav ul.show{
     padding: 10px;
     color: white;
     position: absolute;
-    top: 4.5rem;
+    top: 1rem;
     
 }
 
@@ -79,7 +90,7 @@ nav ul.show{
 .hero-section .buttons{
     padding: 10px;
     position: absolute;
-    top: 12.7rem;
+    top: 9rem;
 }
 
 .hero-section .buttons #explore-btn{
@@ -121,10 +132,46 @@ nav ul.show{
 
 /* C'est quoi le e-dirham Section */
 
-.e-dirham-section .title{
+.e-dirham-section .title , .avantages-section .title{
     font-size: 15px;
 }
 
+.e-dirham-section .describ-edirham{
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+    background-color: var(--second-color);
+    color:white;
+    padding: 15px;
+    box-shadow:10px 10px 10px #00000095;
+}
 
+/* avantages section  */
+
+.avantages-section .avantages {
+    padding: 10px;
+    display: grid;
+    gap: 12px;
+}
+
+.avantages-section .avantages #card img{
+    width: 12rem;
+}
+.avantages-section .avantages  #card{
+    border: 3px solid var(--second-color);
+    border-radius: 12px;
+    width: 25rem;
+    height: 20rem;
+    text-align: center ;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.avantages-section .avantages  #card:hover{
+    border: 5px solid var(--second-color);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.626);
+}
+.avantages-section .avantages  #card h1 {
+    margin-top: -20px;
+}
 
 
