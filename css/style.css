@@ -212,4 +212,32 @@ nav ul.show{
     opacity: 70%;
 }
 
+/* inscription section */
+
+.inscription-section{
+    background-image: url('../assets//home-imgs/background-green.png');
+    padding: 30px;
+    color: white;
+}
+
+.inscription-section .inscri-titles{
+    font-size: 10px;
+}
+
+.inscription-section .inscri-input input{
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #9D834A;
+    border-radius: 10px 0 0 10px ;
+}
+
+.inscription-section .inscri-input button{
+    padding: 10px;
+    margin-left: -7px;
+    border: 2px solid #9D834A;
+    border-radius: 0 10px 10px 0 ;
+background-color: #9D834A;
+color: white;
+}
+
 
