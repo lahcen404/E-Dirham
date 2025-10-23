@@ -1,3 +1,9 @@
+:root{
+    --main-color:#d6c6a1;
+    --second-color:#1f4e4e;
+
+}
+
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -117,6 +123,71 @@ nav ul.show{
 
 .e-dirham-section .title{
     font-size: 15px;
+}
+.card00{
+   margin-top: 120px;
+     display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+    
+    width: 80%;
+    border : 10px;
+    color :black
+}
+.card10{
+      
+     background-color: #c9a35a;
+     width: 220px ;
+      height: 120px;
+    color: #222;
+     border-radius: 12px;
+  padding: 1rem;
+  
+  text-align: center;
+  b
+
+}
+.card11{
+    margin-top: 30px;
+     background-color: #c9a35a;
+     width: 220px ;
+    height: 120px;
+    color: #222;
+     border-radius: 12px;
+      padding: 1rem;
+ 
+      text-align: center;
+}
+
+.card12{
+    margin-top: 30px;
+     background-color: #1F4549;
+     width: 220px ;
+      height: 120px;
+    color: #222;
+     border-radius: 12px;
+      padding: 1rem;
+    
+ 
+      text-align: center;
+}
+.card13{
+    margin-top: 30px;
+     background-color:  #1F4549;
+     width: 220px ;
+    color: #222;
+    height: 120px;
+     border-radius: 12px;
+      padding: 1rem;
+ 
+      text-align: center;
+}
+.icon{
+    
+
+
 }
 
 
