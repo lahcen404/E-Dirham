@@ -196,7 +196,7 @@ color: white;
 }
 
 @media (min-width : 1280px) {
-    
+    /* hero section */
     .hero-section .title {
         margin-top: 100px;
     }
@@ -222,6 +222,21 @@ color: white;
 .hero-section .buttons #Register-btn{
     padding: 1.5rem 5rem;
     font-size: 1rem;
+}
+
+/* qu'est-ce que le E-Dirham */
+
+.e-dirham-section {
+    padding: 15px;
+}
+
+.e-dirham-section .describ-edirham {
+    padding: 35px;
+    
+}
+
+.e-dirham-section .describ-edirham p {
+    margin-top: 1px;
 }
 
 }
