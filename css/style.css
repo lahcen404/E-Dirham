@@ -101,6 +101,10 @@ body{
     margin: 10px;
 }
 
+.e-dirham-section .describ-edirham p{
+    margin-top: 10px
+}
+
 /* avantages section  */
 
 .avantages-section .avantages {
