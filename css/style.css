@@ -132,8 +132,8 @@ nav ul.show{
 
 /* C'est quoi le e-dirham Section */
 
-.e-dirham-section .title , .avantages-section .title{
-    font-size: 15px;
+.e-dirham-section .title , .avantages-section .title , .faqs-section .title{
+    font-size: 14px;
 }
 
 .e-dirham-section .describ-edirham{
@@ -143,6 +143,7 @@ nav ul.show{
     color:white;
     padding: 15px;
     box-shadow:10px 10px 10px #00000095;
+    margin: 10px;
 }
 
 /* avantages section  */
@@ -159,8 +160,9 @@ nav ul.show{
 .avantages-section .avantages  #card{
     border: 3px solid var(--second-color);
     border-radius: 12px;
-    width: 25rem;
+    width: 22rem;
     height: 20rem;
+    margin: 2rem;
     text-align: center ;
     background-color: white;
     transition: 0.3s;
@@ -172,6 +174,42 @@ nav ul.show{
 }
 .avantages-section .avantages  #card h1 {
     margin-top: -20px;
+}
+
+/* FAQs section */
+
+.faqs-section .card{
+    display: flex;
+    border: 3px solid var(--main-color);
+    border-radius: 10px;
+    background-color: #d6c6a156;
+    color:black;
+    padding: 15px;
+    margin: 10px;
+    box-shadow:10px 10px 10px #00000095;
+    margin-bottom: 30px;
+    gap: 30px;
+}
+
+.faqs-section  .card img{
+    width: 12rem;
+}
+
+.faqs-section .cards .card .infos{
+    text-align: center;
+    margin-top: -30px;
+}
+
+.faqs-section .cards .card .infos h1 , p{
+    margin-top: -15px;
+}
+
+.faqs-section .cards .card .faq h1{
+    text-align: center;
+}
+
+.faqs-section .cards .card .faq p{
+    opacity: 70%;
 }
 
 
