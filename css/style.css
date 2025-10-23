@@ -12,51 +12,6 @@ body{
     width: 430px;
 }
 
-/* navbaar */
-
-nav{
-    background-color: white;
-    position: relative;
-    z-index: 10;
-}
-nav .navbar{
-    display: flex;
-}
-
-nav .navbar #menu-icon{
-    margin-right: 20px;
-    font-size: 2.5rem;
-    cursor: pointer;
-}
-
-nav img{
-    width: 40%
-}
-
-nav ul{
-    display:none ;
-    flex-direction: column;
-    top:100%;
-    width: 100%;
-    text-align: center;
-    list-style: none;
-    padding: 20px 0;
-}
-nav ul a{
-    display: block;              
-  width: 100%;                  
-  padding: 20px 0;              
-  background-color: main-color;    
-  color: #1f4e4e;               
-  text-decoration: none;
-  border-top: 2px solid #1f4e4e;
-  border-bottom: 2px solid #1f4e4e;
-  
-}
-
-nav ul.show{
-    display: flex;
-}
 
 /* Heero  */
 
@@ -240,3 +195,8 @@ background-color: #9D834A;
 color: white;
 }
 
+@media (max-width : 1280px) {
+    
+
+
+}
