@@ -195,7 +195,7 @@ background-color: #9D834A;
 color: white;
 }
 
-@media (min-width : 1280px) {
+@media (min-width : 700px) {
     /* hero section */
     .hero-section .title {
         margin-top: 100px;
@@ -281,5 +281,5 @@ color: white;
     color: black;
 }
 
-/* footer */
+
 }
