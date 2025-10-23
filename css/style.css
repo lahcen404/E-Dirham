@@ -721,6 +721,7 @@ color: white;
 
 
 
+/***************styling for news section ******************/
 
 
 * {
@@ -826,7 +827,53 @@ word-break: break-word;
 
 .news .titre_princibal {
 
-
+text-align: center;
 font-size: 1.5rem;
+
+}
+
+
+
+/***************styling second part news******************/
+
+
+.news .second_part_news {
+display: grid;
+grid-template-columns: 1fr;
+background-image: url(/assets/news-imgs/background-green.png);
+border-radius: 1rem;
+gap : 1.5rem;
+padding: 1rem;
+box-sizing: border-box;
+max-width: 500px;
+margin:  0 auto;
+
+
+}
+
+.second_part_news .second_part_news_card {
+
+display:flex ;
+flex-direction: column;
+align-items: center;
+background-color: var(--main-color);
+border-radius: 1rem ;
+padding:1rem ;
+gap:1rem ;
+}
+
+
+
+.second_part_news_card .card_titre {
+
+    color: #225656;
+    font-size: 2rem;
+    text-align: center;
+}
+.second_part_news_card .card_p {
+
+    color: #225656;
+    font-size: 0.7rem;
+    text-align: center;
 
 }
