@@ -768,9 +768,9 @@ color: white;
 
 
 
-/***************styling for news section ******************/
+/*++++++++++++++++++++++++++++++++++styling for news section for mobile+++++++++++++++++++++++++++++*/
 
-
+/***************global styling for news******************/
 * {
     box-sizing: border-box;
 }
@@ -780,14 +780,6 @@ body {
     padding: 0;
 }
 
-.news .titre1 {
-
-    text-align: center;
-    font-size: 20px;
-    padding: 2rem 0;
-  
-}
-
 .news {
 
     width: 100%;
@@ -795,11 +787,19 @@ body {
     padding: 2rem; 
     overflow-x: hidden;
     margin:  0 auto;
-     
+
+    
 }
 
 
+/***************styling first article part news******************/
+.news .titre1 {
 
+    text-align: center;
+    font-size: 20px;
+    padding: 2rem 0;
+  
+}
 .news .first_part_news {
 display: grid;
 grid-template-columns: 1fr;
@@ -808,7 +808,7 @@ border-radius: 1rem;
 gap : 1.5rem;
 padding: 1rem;
 box-sizing: border-box;
-max-width: 600px;
+max-width: 500px;
 margin:  0 auto;
 
 }
@@ -862,20 +862,21 @@ word-break: break-word;
 
 .article2 .titre1 {
    padding: 0;
-   margin: -0.3rem ;
+   margin: -0.2rem ;
 }
 .article2 img {
 
    margin-right: 0;  
 }
 .article2 .article_p {
-   margin-top: 3rem;
+   margin-top: 1rem;
 }
 
 .news .titre_princibal {
 
 text-align: center;
 font-size: 1.5rem;
+margin: 2rem 0;
 
 }
 
@@ -926,16 +927,84 @@ gap:1rem ;
 }
 
 
+/***************styling third part video part news******************/
+
+
 
 .video_wrapper {
 
     background-color: var(--main-color);
     border-radius: 1rem;
     padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
 }
 .video_frame {
-   border-radius: 1rem;
+   border-radius: 1rem;   
+}
+
+
+
+
+/*++++++++++++++++++++++++++++++++++styling for news section for mobile+++++++++++++++++++++++++++++*/
+
+
+
+
+@media screen and (min-width :900px){
+
+
+    /***************styling global Desktop******************/
+
+    .titre_princibal {
+     font-size: 2rem ;
+     padding-top:4rem ;
+     padding-bottom:2rem ;
+     
+    }
+
+    .news .first_part_news {
+
+   grid-template-columns: repeat(3,1fr);
+   background-color: var(--main-color);
+   max-width: 1200px;
+   padding: 2rem;
+   gap :2rem ;
+   margin: 2rem auto;
+
+    }
+     .news .first_part_news .article {
+        background-color: var(--main-color);
+        font-size: 1rem;
+    }
+
+
+
+
+
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 }
+    
+
+    
