@@ -176,7 +176,9 @@ body{
 }
 
 .faqs-section .cards .card .faq p{
+    color: #000000de;
     opacity: 70%;
+
 }
 
 /* inscription section */
