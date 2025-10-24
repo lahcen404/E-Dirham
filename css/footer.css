@@ -1,3 +1,42 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9D834A;
+}
+
+footer #copyright p{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+footer .social-media{
+     margin-left: 20px;
+     margin-top: 30px;
+}
+
+footer .social-media img{
+    width: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+@media (min-width:700px) {
+    footer{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    footer #copyright p{
+        font-size: 14px;
+    }
+
+    footer .social-media img{
+        width: 30px;
+    }
+}

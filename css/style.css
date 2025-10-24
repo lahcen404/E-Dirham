@@ -1,58 +1,24 @@
 :root{
     --main-color:#d6c6a1;
     --second-color:#1f4e4e;
-
 }
+
 
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-/* navbaar */
-
-nav{
-    background-color: white;
-}
-nav .navbar{
-    display: flex;
+body{
+    width: 430px;
 }
 
-nav .navbar #menu-icon{
-    margin-right: 20px;
-    font-size: 2.5rem;
-    cursor: pointer;
-}
-
-nav img{
-    width: 40%
-}
-
-nav ul{
-    display:none ;
-    flex-direction: column;
-    width: 100%;
-    text-align: center;
-    list-style: none;
-    padding: 20px 0;
-}
-nav ul a{
-    display: block;              
-  width: 100%;                  
-  padding: 20px 0;              
-  background-color: #d6c6a1;    
-  color: #1f4e4e;               
-  text-decoration: none;
-  border-top: 2px solid #1f4e4e;
-  border-bottom: 2px solid #1f4e4e;
-  
-}
-
-nav ul.show{
-    display: contents;
-}
 
 /* Heero  */
+
+.hero-section{
+    position: relative;
+    z-index: 1;
+}
 
 .hero-section img{
     width: 100%;
@@ -63,7 +29,7 @@ nav ul.show{
     padding: 10px;
     color: white;
     position: absolute;
-    top: 4.5rem;
+    top: 1rem;
     
 }
 
@@ -79,7 +45,7 @@ nav ul.show{
 .hero-section .buttons{
     padding: 10px;
     position: absolute;
-    top: 12.7rem;
+    top: 9rem;
 }
 
 .hero-section .buttons #explore-btn{
@@ -121,8 +87,205 @@ nav ul.show{
 
 /* C'est quoi le e-dirham Section */
 
-.e-dirham-section .title{
+.e-dirham-section .title , .avantages-section .title , .faqs-section .title{
+    font-size: 14px;
+}
+
+.e-dirham-section .describ-edirham{
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+    background-color: var(--second-color);
+    color:white;
+    padding: 15px;
+    box-shadow:10px 10px 10px #00000095;
+    margin: 10px;
+}
+
+.e-dirham-section .describ-edirham p{
+    margin-top: 10px
+}
+
+/* avantages section  */
+
+.avantages-section .avantages {
+    padding: 10px;
+    display: grid;
+    gap: 12px;
+}
+
+.avantages-section .avantages #card img{
+    width: 12rem;
+}
+.avantages-section .avantages  #card{
+    border: 3px solid var(--second-color);
+    border-radius: 12px;
+    width: 22rem;
+    height: 20rem;
+    margin: 2rem;
+    text-align: center ;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.avantages-section .avantages  #card:hover{
+    border: 5px solid var(--second-color);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.626);
+}
+.avantages-section .avantages  #card h1 {
+    margin-top: -20px;
+}
+
+/* FAQs section */
+
+.faqs-section .card{
+    display: flex;
+    border: 3px solid var(--main-color);
+    border-radius: 10px;
+    background-color: #d6c6a156;
+    color:black;
+    padding: 15px;
+    margin: 10px;
+    box-shadow:10px 10px 10px #00000095;
+    margin-bottom: 30px;
+    gap: 30px;
+}
+
+.faqs-section  .card img{
+    width: 12rem;
+}
+
+.faqs-section .cards .card .infos{
+    text-align: center;
+    margin-top: -30px;
+}
+
+.faqs-section .cards .card .infos h1 , p{
+    margin-top: -15px;
+}
+
+.faqs-section .cards .card .faq h1{
+    text-align: center;
+}
+
+.faqs-section .cards .card .faq p{
+    opacity: 70%;
+}
+
+/* inscription section */
+
+.inscription-section{
+    background-image: url('../assets//home-imgs/background-green.png');
+    padding: 30px;
+    color: white;
+}
+
+.inscription-section .inscri-titles{
+    font-size: 10px;
+}
+
+.inscription-section .inscri-input input{
+    width: 200px;
+    padding: 10px;
+    border: 2px solid #9D834A;
+    border-radius: 10px 0 0 10px ;
+}
+
+.inscription-section .inscri-input button{
+    padding: 10px;
+    margin-left: -7px;
+    border: 2px solid #9D834A;
+    border-radius: 0 10px 10px 0 ;
+background-color: #9D834A;
+color: white;
+}
+
+@media (min-width : 700px) {
+    /* hero section */
+    .hero-section .title {
+        margin-top: 100px;
+    }
+.hero-section .title h1{
+    font-size: 5rem;
+}
+
+.hero-section .title p{
+    font-size: 2rem;
+}
+
+.hero-section .buttons{
+    margin-left: 30px;
+    position: absolute;
+    top: 30rem;
+}
+
+.hero-section .buttons #explore-btn{
+    padding: 1.5rem 5rem;
+    font-size: 1rem;
+}
+
+.hero-section .buttons #Register-btn{
+    padding: 1.5rem 5rem;
+    font-size: 1rem;
+}
+
+/* qu'est-ce que le E-Dirham */
+
+.e-dirham-section , .avantages-section ,.faqs-section {
+    padding: 15px;
+}
+
+.e-dirham-section .describ-edirham {
+    padding: 35px;
+    
+}
+
+.e-dirham-section .describ-edirham p {
+    margin-top: 1px;
+    font-size: 30px;
+}
+
+/* avantages e-dirham */
+
+.avantages-section .avantages{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+    gap: 5px;
+}
+
+/* FAQs Section */
+.faqs-section .cards .card{
+    gap: 160px;
+}
+
+.faqs-section .cards .card .infos img{
+    width: 20rem;
+}
+
+.faqs-section .cards .card .faq p{
+    font-size: 30px;
+    padding: 30px;
+}
+
+/* inscription section */
+
+.inscription-section .inscri-titles {
+    font-size: 1.7rem;
+    margin-left: 12rem;
+}
+.inscription-section .inscri-input input{
+    width: 30rem;
+    height: 2rem;
+     margin-left: 12rem;
+}
+.inscription-section .inscri-input button{
+    height: 3.5rem;
+    width: 120px;
     font-size: 15px;
+    color: black;
+}
+
+
 }
 
 
@@ -339,3 +502,651 @@ nav ul.show{
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************styling for news section ******************/
+
+
+* {
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;  
+    margin: 0; 
+    padding: 0;
+}
+
+.news .titre1 {
+
+    text-align: center;
+    font-size: 20px;
+    padding: 2rem 0;
+  
+}
+
+.news {
+
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2rem; 
+    overflow-x: hidden;
+    margin:  0 auto;
+     
+}
+
+
+
+.news .first_part_news {
+display: grid;
+grid-template-columns: 1fr;
+background-color: var(--main-color);
+border-radius: 1rem;
+gap : 1.5rem;
+padding: 1rem;
+box-sizing: border-box;
+max-width: 600px;
+margin:  0 auto;
+
+}
+.article .article_first_part {
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 0.7rem;
+    
+    
+}
+
+.news .first_part_news .article
+ {
+
+background-image: url(/assets/news-imgs/background-green.png);
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 1rem;
+padding :1.5rem;
+}
+
+.article img{
+    height: 2.5rem;
+    width: 2.5rem;
+   
+}
+.article .titre1{
+    font-size: 0.8rem;
+    text-align: center;
+    color: var(--main-color);
+}
+.article .article_p {
+
+color: white;
+text-align: center;
+font-size: 0.6rem;
+word-break: break-word;
+}
+.article .titre2 {
+    color : var(--main-color);
+}
+.article .list {
+    color: white;
+    font-size: 0.6rem;
+    text-align: left;
+}
+
+
+.article2 .titre1 {
+   padding: 0;
+   margin: -0.3rem ;
+}
+.article2 img {
+
+   margin-right: 0;  
+}
+.article2 .article_p {
+   margin-top: 3rem;
+}
+
+.news .titre_princibal {
+
+text-align: center;
+font-size: 1.5rem;
+
+}
+
+
+
+/***************styling second part news******************/
+
+
+.news .second_part_news {
+display: grid;
+grid-template-columns: 1fr;
+background-image: url(/assets/news-imgs/background-green.png);
+border-radius: 1rem;
+gap : 1.5rem;
+padding: 1rem;
+box-sizing: border-box;
+max-width: 500px;
+margin:  0 auto;
+
+
+}
+
+.second_part_news .second_part_news_card {
+
+display:flex ;
+flex-direction: column;
+align-items: center;
+background-color: var(--main-color);
+border-radius: 1rem ;
+padding:1rem ;
+gap:1rem ;
+}
+
+
+
+.second_part_news_card .card_titre {
+
+    color: #225656;
+    font-size: 2rem;
+    text-align: center;
+}
+.second_part_news_card .card_p {
+
+    color: #225656;
+    font-size: 0.7rem;
+    text-align: center;
+
+}
+
+
+
+.video_wrapper {
+
+    background-color: var(--main-color);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+.video_frame {
+   border-radius: 1rem;
+
+
+
+}
