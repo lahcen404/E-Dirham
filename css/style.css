@@ -877,3 +877,18 @@ gap:1rem ;
     text-align: center;
 
 }
+
+
+
+.video_wrapper {
+
+    background-color: var(--main-color);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+.video_frame {
+   border-radius: 1rem;
+
+
+
+}
