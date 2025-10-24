@@ -1,6 +1,9 @@
 :root{
     --main-color:#d6c6a1;
     --second-color:#1f4e4e;
+    --gold: #c9a35a;
+    --dark-blue: #1F4549;
+    --light-bg: #F5F3E8;
 }
 
 
@@ -10,6 +13,9 @@
 
 body{
     width: 430px;
+    margin: 0%;
+  padding: 0%;
+  background-image: url("../assets/home-imgs/background.png");
 }
 
 
@@ -145,6 +151,7 @@ body{
     color:black;
     padding: 15px;
     margin: 10px;
+    width: 26rem;
     box-shadow:10px 10px 10px #00000095;
     margin-bottom: 30px;
     gap: 30px;
