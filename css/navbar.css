@@ -60,6 +60,7 @@ nav ul.show {
   }
 
   nav {
+    position: fixed;
     background-color: white;
     display: flex;
     justify-content: space-between;
