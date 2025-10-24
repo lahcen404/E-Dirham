@@ -991,8 +991,13 @@ gap:1rem ;
         font-size: 2.5rem;
     }
 
-    
+         /***************styling for the third part Desktop******************/
 
+        .video_wrapper {
+        max-width: 900px; 
+        padding: 2rem;
+        margin: 4rem auto;
+    }
 
 
 
