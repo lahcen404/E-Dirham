@@ -263,6 +263,7 @@ color: white;
 /* FAQs Section */
 .faqs-section .cards .card{
     gap: 160px;
+    width: 200vh;
 }
 
 .faqs-section .cards .card .infos img{
@@ -282,7 +283,7 @@ color: white;
 }
 .inscription-section .inscri-input input{
     width: 30rem;
-    height: 2rem;
+    height: 3.3rem;
      margin-left: 12rem;
 }
 .inscription-section .inscri-input button{
@@ -296,13 +297,6 @@ color: white;
 }
 
 
-     :root {
-  --main-color: #d6c6a1;
-  --second-color: #1f4e4e;
-  --gold: #c9a35a;
-  --dark-blue: #1F4549;
-  --light-bg: #F5F3E8;
-}
 
 
 .inclusion {
