@@ -12,51 +12,6 @@ body{
     width: 430px;
 }
 
-/* navbaar */
-
-nav{
-    background-color: white;
-    position: relative;
-    z-index: 10;
-}
-nav .navbar{
-    display: flex;
-}
-
-nav .navbar #menu-icon{
-    margin-right: 20px;
-    font-size: 2.5rem;
-    cursor: pointer;
-}
-
-nav img{
-    width: 40%
-}
-
-nav ul{
-    display:none ;
-    flex-direction: column;
-    top:100%;
-    width: 100%;
-    text-align: center;
-    list-style: none;
-    padding: 20px 0;
-}
-nav ul a{
-    display: block;              
-  width: 100%;                  
-  padding: 20px 0;              
-  background-color: main-color;    
-  color: #1f4e4e;               
-  text-decoration: none;
-  border-top: 2px solid #1f4e4e;
-  border-bottom: 2px solid #1f4e4e;
-  
-}
-
-nav ul.show{
-    display: flex;
-}
 
 /* Heero  */
 
@@ -144,6 +99,10 @@ nav ul.show{
     padding: 15px;
     box-shadow:10px 10px 10px #00000095;
     margin: 10px;
+}
+
+.e-dirham-section .describ-edirham p{
+    margin-top: 10px
 }
 
 /* avantages section  */
@@ -240,6 +199,94 @@ background-color: #9D834A;
 color: white;
 }
 
+@media (min-width : 700px) {
+    /* hero section */
+    .hero-section .title {
+        margin-top: 100px;
+    }
+.hero-section .title h1{
+    font-size: 5rem;
+}
+
+.hero-section .title p{
+    font-size: 2rem;
+}
+
+.hero-section .buttons{
+    margin-left: 30px;
+    position: absolute;
+    top: 30rem;
+}
+
+.hero-section .buttons #explore-btn{
+    padding: 1.5rem 5rem;
+    font-size: 1rem;
+}
+
+.hero-section .buttons #Register-btn{
+    padding: 1.5rem 5rem;
+    font-size: 1rem;
+}
+
+/* qu'est-ce que le E-Dirham */
+
+.e-dirham-section , .avantages-section ,.faqs-section {
+    padding: 15px;
+}
+
+.e-dirham-section .describ-edirham {
+    padding: 35px;
+    
+}
+
+.e-dirham-section .describ-edirham p {
+    margin-top: 1px;
+    font-size: 30px;
+}
+
+/* avantages e-dirham */
+
+.avantages-section .avantages{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+    gap: 5px;
+}
+
+/* FAQs Section */
+.faqs-section .cards .card{
+    gap: 160px;
+}
+
+.faqs-section .cards .card .infos img{
+    width: 20rem;
+}
+
+.faqs-section .cards .card .faq p{
+    font-size: 30px;
+    padding: 30px;
+}
+
+/* inscription section */
+
+.inscription-section .inscri-titles {
+    font-size: 1.7rem;
+    margin-left: 12rem;
+}
+.inscription-section .inscri-input input{
+    width: 30rem;
+    height: 2rem;
+     margin-left: 12rem;
+}
+.inscription-section .inscri-input button{
+    height: 3.5rem;
+    width: 120px;
+    font-size: 15px;
+    color: black;
+}
+
+
+}
 
 
 

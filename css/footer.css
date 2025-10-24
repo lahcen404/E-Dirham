@@ -25,3 +25,18 @@ footer .social-media img{
     margin-bottom: 30px;
     margin-left: 10px;
 }
+
+@media (min-width:700px) {
+    footer{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    footer #copyright p{
+        font-size: 14px;
+    }
+
+    footer .social-media img{
+        width: 30px;
+    }
+}
