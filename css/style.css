@@ -770,7 +770,7 @@ color: white;
 
 /*++++++++++++++++++++++++++++++++++styling for news section for mobile+++++++++++++++++++++++++++++*/
 
-/***************global styling for news******************/
+/***************global styling news for mobile******************/
 * {
     box-sizing: border-box;
 }
@@ -792,7 +792,7 @@ body {
 }
 
 
-/***************styling first article part news******************/
+/***************styling first article part news for mobile******************/
 .news .titre1 {
 
     text-align: center;
@@ -882,7 +882,7 @@ margin: 2rem 0;
 
 
 
-/***************styling second part news******************/
+/***************styling second part news for mobile******************/
 
 
 .news .second_part_news {
@@ -927,7 +927,7 @@ gap:1rem ;
 }
 
 
-/***************styling third part video part news******************/
+/***************styling third part  news for mobile******************/
 
 
 
@@ -946,7 +946,7 @@ gap:1rem ;
 
 
 
-/*++++++++++++++++++++++++++++++++++styling for news section for mobile+++++++++++++++++++++++++++++*/
+/*++++++++++++++++++++++++++++++++++styling for news section for Desktop+++++++++++++++++++++++++++++*/
 
 
 
@@ -954,7 +954,7 @@ gap:1rem ;
 @media screen and (min-width :900px){
 
 
-    /***************styling global Desktop******************/
+    /***************styling global news for Desktop******************/
 
     .titre_princibal {
      font-size: 2rem ;
@@ -978,7 +978,7 @@ gap:1rem ;
         font-size: 1rem;
     }
 
-     /***************styling for the second part Desktop******************/
+     /***************styling the second part news for Desktop******************/
 
      .news .second_part_news {
         max-width: 1200px; 
@@ -991,7 +991,7 @@ gap:1rem ;
         font-size: 2.5rem;
     }
 
-         /***************styling for the third part Desktop******************/
+         /***************styling for the third part news for Desktop******************/
 
         .video_wrapper {
         max-width: 900px; 
@@ -999,11 +999,7 @@ gap:1rem ;
         margin: 4rem auto;
     }
 
-
-
-
-
-    
+  
 }
 
 
